@@ -1,2 +1,3 @@
 git config --global user.name "Jeremy Davis"
 git config --global user.email "jeremy@turnkeylinux.org"
+git config --global push.default matching
