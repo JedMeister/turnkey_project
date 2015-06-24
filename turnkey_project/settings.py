@@ -29,6 +29,9 @@ TEMPLATE_DIRS = (TEMPLATE_PATH,)
 
 ALLOWED_HOSTS = []
 
+EMAIL_HOST = "localhost"
+EMAIL_PORT = "25"
+DEFAULT_FROM_EMAIL = "noreply@example.com"
 
 # Application definition
 
@@ -40,7 +43,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'turnkey',
+    'turnkey_app',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -77,9 +80,9 @@ LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
 
-USE_I18N = True
+USE_I18N = False
 
-USE_L10N = True
+USE_L10N = False
 
 USE_TZ = True
 

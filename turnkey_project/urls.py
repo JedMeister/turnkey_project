@@ -1,6 +1,6 @@
 from django.conf.urls import patterns, include, url
 from django.contrib import admin
-from turnkey import views
+from turnkey_app import views
 
 urlpatterns = patterns('',
     # Examples:
